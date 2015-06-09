@@ -34,10 +34,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/rhine/proprietary/lib/libexcal_core.so:system/lib/libexcal_core.so \
     vendor/sony/rhine/proprietary/lib/libexcal_system.so:system/lib/libexcal_system.so \
     vendor/sony/rhine/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
-    vendor/sony/rhine/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/sony/rhine/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/sony/rhine/proprietary/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
-    vendor/sony/rhine/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/sony/rhine/proprietary/lib/libsomc_chokoballpal.so:system/lib/libsomc_chokoballpal.so \
     vendor/sony/rhine/proprietary/lib/libsony_chokoball.so:system/lib/libsony_chokoball.so \
     vendor/sony/rhine/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
