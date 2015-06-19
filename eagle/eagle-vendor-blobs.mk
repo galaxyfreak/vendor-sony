@@ -19,7 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/eagle/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/sony/eagle/proprietary/lib/hw/sensors.msm8226.so:system/lib/hw/sensors.msm8226.so \
     vendor/sony/eagle/proprietary/lib/libyasalgo.so:system/lib/libyasalgo.so \
-    vendor/sony/eagle/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so
+    vendor/sony/eagle/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
     vendor/sony/eagle/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/sony/eagle/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/sony/eagle/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
