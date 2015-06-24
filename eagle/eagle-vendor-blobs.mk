@@ -17,6 +17,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/sony/eagle/proprietary/bin/btnvtool:system/bin/btnvtool \
+    vendor/sony/eagle/proprietary/bin/memsicd:system/bin/memsicd \
     vendor/sony/eagle/proprietary/lib/hw/sensors.msm8226.so:system/lib/hw/sensors.msm8226.so \
     vendor/sony/eagle/proprietary/lib/libyasalgo.so:system/lib/libyasalgo.so \
     vendor/sony/eagle/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
