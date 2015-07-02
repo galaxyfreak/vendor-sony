@@ -13,7 +13,6 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-	wcnss_service \
 	MTP_Bluetooth_cal \
 	MTP_General_cal \
 	MTP_Global_cal \
