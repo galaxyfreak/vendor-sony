@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/amami/proprietary/lib/libcald_server.so:system/lib/libcald_server.so \
     vendor/sony/amami/proprietary/lib/libcald_util.so:system/lib/libcald_util.so \
     vendor/sony/amami/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
+    vendor/sony/amami/proprietary/vendor/camera/jpeg_fsc.dat:system/vendor/camera/jpeg_fsc.dat \
     vendor/sony/amami/proprietary/vendor/camera/LGI02BN/cam_ctrl.dat:system/vendor/camera/LGI02BN/cam_ctrl.dat \
     vendor/sony/amami/proprietary/vendor/camera/LGI02BN/cap_ctrl.dat:system/vendor/camera/LGI02BN/cap_ctrl.dat \
     vendor/sony/amami/proprietary/vendor/camera/LGI02BN/chokoball.dat:system/vendor/camera/LGI02BN/chokoball.dat \
@@ -47,6 +48,31 @@ PRODUCT_COPY_FILES += \
     vendor/sony/amami/proprietary/vendor/camera/LGI02BN/snapshot_ctrl.dat:system/vendor/camera/LGI02BN/snapshot_ctrl.dat \
     vendor/sony/amami/proprietary/vendor/camera/LGI02BN/streaming_ctrl.dat:system/vendor/camera/LGI02BN/streaming_ctrl.dat \
     vendor/sony/amami/proprietary/vendor/camera/LGI02BN1_IMX132.dat:system/vendor/camera/LGI02BN1_IMX132.dat \
+    vendor/sony/amami/proprietary/vendor/camera/LGI02BN1/cam_ctrl.dat:system/vendor/camera/LGI02BN1/cam_ctrl.dat \
+    vendor/sony/amami/proprietary/vendor/camera/LGI02BN1/cap_ctrl.dat:system/vendor/camera/LGI02BN1/cap_ctrl.dat \
+    vendor/sony/amami/proprietary/vendor/camera/LGI02BN1/chokoball.dat:system/vendor/camera/LGI02BN1/chokoball.dat \
+    vendor/sony/amami/proprietary/vendor/camera/LGI02BN1/color_ctrl.dat:system/vendor/camera/LGI02BN1/color_ctrl.dat \
+    vendor/sony/amami/proprietary/vendor/camera/LGI02BN1/dataflow.dat:system/vendor/camera/LGI02BN1/dataflow.dat \
+    vendor/sony/amami/proprietary/vendor/camera/LGI02BN1/debug_mgr.dat:system/vendor/camera/LGI02BN1/debug_mgr.dat \
+    vendor/sony/amami/proprietary/vendor/camera/LGI02BN1/exposure_ctrl.dat:system/vendor/camera/LGI02BN1/exposure_ctrl.dat \
+    vendor/sony/amami/proprietary/vendor/camera/LGI02BN1/face_detector.dat:system/vendor/camera/LGI02BN1/face_detector.dat \
+    vendor/sony/amami/proprietary/vendor/camera/LGI02BN1/flicker_detector.dat:system/vendor/camera/LGI02BN1/flicker_detector.dat \
+    vendor/sony/amami/proprietary/vendor/camera/LGI02BN1/focus_stats_conv.dat:system/vendor/camera/LGI02BN1/focus_stats_conv.dat \
+    vendor/sony/amami/proprietary/vendor/camera/LGI02BN1/hal_ctrl.dat:system/vendor/camera/LGI02BN1/hal_ctrl.dat \
+    vendor/sony/amami/proprietary/vendor/camera/LGI02BN1/hal_ctrl_platform.dat:system/vendor/camera/LGI02BN1/hal_ctrl_platform.dat \
+    vendor/sony/amami/proprietary/vendor/camera/LGI02BN1/hdr_comp.dat:system/vendor/camera/LGI02BN1/hdr_comp.dat \
+    vendor/sony/amami/proprietary/vendor/camera/LGI02BN1/idt_ctrl.dat:system/vendor/camera/LGI02BN1/idt_ctrl.dat \
+    vendor/sony/amami/proprietary/vendor/camera/LGI02BN1/image_conv.dat:system/vendor/camera/LGI02BN1/image_conv.dat \
+    vendor/sony/amami/proprietary/vendor/camera/LGI02BN1/imgproc.dat:system/vendor/camera/LGI02BN1/imgproc.dat \
+    vendor/sony/amami/proprietary/vendor/camera/LGI02BN1/jpeg_enc.dat:system/vendor/camera/LGI02BN1/jpeg_enc.dat \
+    vendor/sony/amami/proprietary/vendor/camera/LGI02BN1/lens_ctrl.dat:system/vendor/camera/LGI02BN1/lens_ctrl.dat \
+    vendor/sony/amami/proprietary/vendor/camera/LGI02BN1/module.dat:system/vendor/camera/LGI02BN1/module.dat \
+    vendor/sony/amami/proprietary/vendor/camera/LGI02BN1/motion_estimation.dat:system/vendor/camera/LGI02BN1/motion_estimation.dat \
+    vendor/sony/amami/proprietary/vendor/camera/LGI02BN1/multiframe_nr.dat:system/vendor/camera/LGI02BN1/multiframe_nr.dat \
+    vendor/sony/amami/proprietary/vendor/camera/LGI02BN1/object_tracker.dat:system/vendor/camera/LGI02BN1/object_tracker.dat \
+    vendor/sony/amami/proprietary/vendor/camera/LGI02BN1/scene_detector.dat:system/vendor/camera/LGI02BN1/scene_detector.dat \
+    vendor/sony/amami/proprietary/vendor/camera/LGI02BN1/snapshot_ctrl.dat:system/vendor/camera/LGI02BN1/snapshot_ctrl.dat \
+    vendor/sony/amami/proprietary/vendor/camera/LGI02BN1/streaming_ctrl.dat:system/vendor/camera/LGI02BN1/streaming_ctrl.dat \
     vendor/sony/amami/proprietary/vendor/camera/SEM02BN1/cam_ctrl.dat:system/vendor/camera/SEM02BN1/cam_ctrl.dat \
     vendor/sony/amami/proprietary/vendor/camera/SEM02BN1/cap_ctrl.dat:system/vendor/camera/SEM02BN1/cap_ctrl.dat \
     vendor/sony/amami/proprietary/vendor/camera/SEM02BN1/chokoball.dat:system/vendor/camera/SEM02BN1/chokoball.dat \
@@ -100,6 +126,31 @@ PRODUCT_COPY_FILES += \
     vendor/sony/amami/proprietary/vendor/camera/SOI13BS9/streaming_ctrl.dat:system/vendor/camera/SOI13BS9/streaming_ctrl.dat \
     vendor/sony/amami/proprietary/vendor/camera/SOI20BS0_BU64296GWX.dat:system/vendor/camera/SOI20BS0_BU64296GWX.dat \
     vendor/sony/amami/proprietary/vendor/camera/SOI20BS0_IMX200.dat:system/vendor/camera/SOI20BS0_IMX200.dat \
+    vendor/sony/amami/proprietary/vendor/camera/SOI20BS0/cam_ctrl.dat:system/vendor/camera/SOI20BS0/cam_ctrl.dat \
+    vendor/sony/amami/proprietary/vendor/camera/SOI20BS0/cap_ctrl.dat:system/vendor/camera/SOI20BS0/cap_ctrl.dat \
+    vendor/sony/amami/proprietary/vendor/camera/SOI20BS0/chokoball.dat:system/vendor/camera/SOI20BS0/chokoball.dat \
+    vendor/sony/amami/proprietary/vendor/camera/SOI20BS0/color_ctrl.dat:system/vendor/camera/SOI20BS0/color_ctrl.dat \
+    vendor/sony/amami/proprietary/vendor/camera/SOI20BS0/dataflow.dat:system/vendor/camera/SOI20BS0/dataflow.dat \
+    vendor/sony/amami/proprietary/vendor/camera/SOI20BS0/debug_mgr.dat:system/vendor/camera/SOI20BS0/debug_mgr.dat \
+    vendor/sony/amami/proprietary/vendor/camera/SOI20BS0/exposure_ctrl.dat:system/vendor/camera/SOI20BS0/exposure_ctrl.dat \
+    vendor/sony/amami/proprietary/vendor/camera/SOI20BS0/face_detector.dat:system/vendor/camera/SOI20BS0/face_detector.dat \
+    vendor/sony/amami/proprietary/vendor/camera/SOI20BS0/flicker_detector.dat:system/vendor/camera/SOI20BS0/flicker_detector.dat \
+    vendor/sony/amami/proprietary/vendor/camera/SOI20BS0/focus_stats_conv.dat:system/vendor/camera/SOI20BS0/focus_stats_conv.dat \
+    vendor/sony/amami/proprietary/vendor/camera/SOI20BS0/hal_ctrl.dat:system/vendor/camera/SOI20BS0/hal_ctrl.dat \
+    vendor/sony/amami/proprietary/vendor/camera/SOI20BS0/hal_ctrl_platform.dat:system/vendor/camera/SOI20BS0/hal_ctrl_platform.dat \
+    vendor/sony/amami/proprietary/vendor/camera/SOI20BS0/hdr_comp.dat:system/vendor/camera/SOI20BS0/hdr_comp.dat \
+    vendor/sony/amami/proprietary/vendor/camera/SOI20BS0/idt_ctrl.dat:system/vendor/camera/SOI20BS0/idt_ctrl.dat \
+    vendor/sony/amami/proprietary/vendor/camera/SOI20BS0/image_conv.dat:system/vendor/camera/SOI20BS0/image_conv.dat \
+    vendor/sony/amami/proprietary/vendor/camera/SOI20BS0/imgproc.dat:system/vendor/camera/SOI20BS0/imgproc.dat \
+    vendor/sony/amami/proprietary/vendor/camera/SOI20BS0/jpeg_enc.dat:system/vendor/camera/SOI20BS0/jpeg_enc.dat \
+    vendor/sony/amami/proprietary/vendor/camera/SOI20BS0/lens_ctrl.dat:system/vendor/camera/SOI20BS0/lens_ctrl.dat \
+    vendor/sony/amami/proprietary/vendor/camera/SOI20BS0/module.dat:system/vendor/camera/SOI20BS0/module.dat \
+    vendor/sony/amami/proprietary/vendor/camera/SOI20BS0/motion_estimation.dat:system/vendor/camera/SOI20BS0/motion_estimation.dat \
+    vendor/sony/amami/proprietary/vendor/camera/SOI20BS0/multiframe_nr.dat:system/vendor/camera/SOI20BS0/multiframe_nr.dat \
+    vendor/sony/amami/proprietary/vendor/camera/SOI20BS0/object_tracker.dat:system/vendor/camera/SOI20BS0/object_tracker.dat \
+    vendor/sony/amami/proprietary/vendor/camera/SOI20BS0/scene_detector.dat:system/vendor/camera/SOI20BS0/scene_detector.dat \
+    vendor/sony/amami/proprietary/vendor/camera/SOI20BS0/snapshot_ctrl.dat:system/vendor/camera/SOI20BS0/snapshot_ctrl.dat \
+    vendor/sony/amami/proprietary/vendor/camera/SOI20BS0/streaming_ctrl.dat:system/vendor/camera/SOI20BS0/streaming_ctrl.dat \
     vendor/sony/amami/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
     vendor/sony/amami/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
     vendor/sony/amami/proprietary/vendor/camera/product_CACAO.dat:system/vendor/camera/product_CACAO.dat \
