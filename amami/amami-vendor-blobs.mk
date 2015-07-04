@@ -22,6 +22,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/amami/proprietary/lib/libcald_server.so:system/lib/libcald_server.so \
     vendor/sony/amami/proprietary/lib/libcald_util.so:system/lib/libcald_util.so \
     vendor/sony/amami/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
+    vendor/sony/amami/proprietary/lib/libexcal_system.so:system/lib/libexcal_system.so \
     vendor/sony/amami/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/sony/amami/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/sony/amami/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
