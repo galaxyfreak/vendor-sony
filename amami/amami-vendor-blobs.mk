@@ -26,7 +26,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/amami/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/sony/amami/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/sony/amami/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
-    vendor/sony/amami/proprietary/lib/hw/camera.qcom.so:system/lib/hw/camera.rhine.so \
+    vendor/sony/amami/proprietary/lib/hw/camera.qcom.so:system/lib/hw/camera.vendor.rhine.so \
     vendor/sony/amami/proprietary/vendor/camera/jpeg_fsc.dat:system/vendor/camera/jpeg_fsc.dat \
     vendor/sony/amami/proprietary/vendor/camera/LGI02BN/cam_ctrl.dat:system/vendor/camera/LGI02BN/cam_ctrl.dat \
     vendor/sony/amami/proprietary/vendor/camera/LGI02BN/cap_ctrl.dat:system/vendor/camera/LGI02BN/cap_ctrl.dat \
