@@ -23,11 +23,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/eagle/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/sony/eagle/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/sony/eagle/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/sony/eagle/proprietary/hw/camera.msm8226.so:system/lib/hw/camera.vendor.yukon.so \
+    vendor/sony/eagle/proprietary/lib/hw/camera.msm8226.so:system/lib/hw/camera.vendor.yukon.so \
     vendor/sony/eagle/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/sony/eagle/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/sony/eagle/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/sony/eagle/proprietary/lib/hw/camera.msm8226.so:system/lib/hw/camera.msm8226.so \
     vendor/sony/eagle/proprietary/lib/libbeautyface.so:system/lib/libbeautyface.so \
     vendor/sony/eagle/proprietary/lib/libchromatix_imx134_liveshot.so:system/lib/libchromatix_imx134_liveshot.so \
     vendor/sony/eagle/proprietary/lib/libchromatix_imx134_video_hd.so:system/lib/libchromatix_imx134_video_hd.so \
