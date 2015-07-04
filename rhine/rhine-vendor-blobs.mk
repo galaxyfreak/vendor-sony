@@ -27,12 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/rhine/proprietary/lib/libcacao_parammgr.so:system/lib/libcacao_parammgr.so \
     vendor/sony/rhine/proprietary/lib/libcacao_service.so:system/lib/libcacao_service.so \
     vendor/sony/rhine/proprietary/lib/libcacao_system.so:system/lib/libcacao_system.so \
-    vendor/sony/rhine/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
-    vendor/sony/rhine/proprietary/lib/libcald_pal.so:system/lib/libcald_pal.so \
-    vendor/sony/rhine/proprietary/lib/libcald_server.so:system/lib/libcald_server.so \
-    vendor/sony/rhine/proprietary/lib/libcald_util.so:system/lib/libcald_util.so \
-    vendor/sony/rhine/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
-    vendor/sony/rhine/proprietary/lib/libcammw.so:system/lib/libcammw.so \
     vendor/sony/rhine/proprietary/lib/libexcal_core.so:system/lib/libexcal_core.so \
     vendor/sony/rhine/proprietary/lib/libexcal_system.so:system/lib/libexcal_system.so \
     vendor/sony/rhine/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
