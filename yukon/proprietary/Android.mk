@@ -16,6 +16,16 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(PRODUCT_PLATFORM),yukon)
 include $(CLEAR_VARS)
+LOCAL_MODULE := wcnss_service
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := bin/wcnss_service
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := 
+LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_PATH := $(TARGET_OUT)/bin
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := MTP_Bluetooth_cal
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
